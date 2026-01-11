@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(25, 25, 25);
+    height:600px;
+    background-image: url("background.png") ;
+}
+
+
+.signup-container {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    margin: 15vh auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:  rgb(60, 60, 60);
+}
+
+.logo {
+    margin-left: 20vh;
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+    background-image: url("Chatterbox\ no\ bg2.png") ;
+    background-size: contain;
+}
+
+.box {
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="username"],
+input[type="password"] {
+    height: 30px;
+    width: 75%;
+    padding: 8px;
+    margin-top: 30px;
+    border: transparent;
+    border-radius: 10px;
+    background-color:  rgb(25, 25, 25);
+    color: white;
+    font-size: 15px;
+}
+
+input[type="username"] {
+    margin-top: 0px;
+}
+
+.signup {
+    height: 40px;
+    width: 77%;
+    padding: 8px;
+    margin-top: 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    background:transparent;
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    font-weight:400;
+}
+
+.account {
+    width: 75%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: transparent;
+    background:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.signup:hover {
+    border: 1px solid white;
+    color:white;
+    cursor:pointer;
+}
+
+.account:hover {
+    color:white;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+hr {
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-color:rgb(177, 177, 177);
+}
+
+.error {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
